@@ -1,0 +1,18 @@
+#box,
+#sidePanel {
+    /*puts the box and side panel side by side*/
+    display: inline-block;
+
+    /*makes the box and side panel aligned at the top*/
+    vertical-align: top;
+}
+
+#box {
+    /*gives dimensions and a border to the box*/
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+
+    /*puts empty space to the right of the box to separate it from the side panel*/
+    margin-right: 30px;
+}
